@@ -1,6 +1,0 @@
-framework module Pods_QYCommunityModule_Tests {
-  umbrella header "Pods-QYCommunityModule_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

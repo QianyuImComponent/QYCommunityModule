@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FF731E0F88570491C9E2F33 /* Pods_QYCommunityModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DA51992E96DE566336B0D4 /* Pods_QYCommunityModule_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		EF445A9424EE4C97005E46F0 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = EF445A8F24EE4C97005E46F0 /* Fastfile */; };
+		EF445A9524EE4C97005E46F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF445A9024EE4C97005E46F0 /* README.md */; };
+		EF445A9624EE4C97005E46F0 /* remove_git_tag.rb in Resources */ = {isa = PBXBuildFile; fileRef = EF445A9224EE4C97005E46F0 /* remove_git_tag.rb */; };
+		EF445A9724EE4C97005E46F0 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = EF445A9324EE4C97005E46F0 /* report.xml */; };
 		F04F44CC964C301992A5A37B /* Pods_QYCommunityModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AEDFEB6E0B05659CBE94870 /* Pods_QYCommunityModule_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +32,6 @@
 
 /* Begin PBXFileReference section */
 		3AEDFEB6E0B05659CBE94870 /* Pods_QYCommunityModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYCommunityModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C56F188B9915C0F159B8AFB /* Pods-QYCommunityModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCommunityModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QYCommunityModule_Tests/Pods-QYCommunityModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4259D1FBFD27959F8B11F13C /* QYCommunityModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QYCommunityModule.podspec; path = ../QYCommunityModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* QYCommunityModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYCommunityModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +43,14 @@
 		607FACE51AFB9204008FA782 /* QYCommunityModule_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYCommunityModule_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		86DA51992E96DE566336B0D4 /* Pods_QYCommunityModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYCommunityModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2094DA09FED3D29C840EE54 /* Pods-QYCommunityModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCommunityModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-QYCommunityModule_Example/Pods-QYCommunityModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C2B0FB016C4D6D3CF45C23B1 /* Pods-QYCommunityModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCommunityModule_Example.release.xcconfig"; path = "Target Support Files/Pods-QYCommunityModule_Example/Pods-QYCommunityModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C632C2D4F56FA44BC4A0CE79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CD212F54C94B93CD49FE7FCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FB7A2F1F39236B0D85E313C7 /* Pods-QYCommunityModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYCommunityModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-QYCommunityModule_Tests/Pods-QYCommunityModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EF445A8F24EE4C97005E46F0 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		EF445A9024EE4C97005E46F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EF445A9224EE4C97005E46F0 /* remove_git_tag.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = remove_git_tag.rb; sourceTree = "<group>"; };
+		EF445A9324EE4C97005E46F0 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FF731E0F88570491C9E2F33 /* Pods_QYCommunityModule_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +77,6 @@
 			children = (
 				A2094DA09FED3D29C840EE54 /* Pods-QYCommunityModule_Example.debug.xcconfig */,
 				C2B0FB016C4D6D3CF45C23B1 /* Pods-QYCommunityModule_Example.release.xcconfig */,
-				3C56F188B9915C0F159B8AFB /* Pods-QYCommunityModule_Tests.debug.xcconfig */,
-				FB7A2F1F39236B0D85E313C7 /* Pods-QYCommunityModule_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -146,6 +147,7 @@
 				4259D1FBFD27959F8B11F13C /* QYCommunityModule.podspec */,
 				C632C2D4F56FA44BC4A0CE79 /* README.md */,
 				CD212F54C94B93CD49FE7FCD /* LICENSE */,
+				EF445A8E24EE4C97005E46F0 /* fastlane */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -154,9 +156,28 @@
 			isa = PBXGroup;
 			children = (
 				3AEDFEB6E0B05659CBE94870 /* Pods_QYCommunityModule_Example.framework */,
-				86DA51992E96DE566336B0D4 /* Pods_QYCommunityModule_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF445A8E24EE4C97005E46F0 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				EF445A8F24EE4C97005E46F0 /* Fastfile */,
+				EF445A9024EE4C97005E46F0 /* README.md */,
+				EF445A9124EE4C97005E46F0 /* actions */,
+				EF445A9324EE4C97005E46F0 /* report.xml */,
+			);
+			name = fastlane;
+			path = ../fastlane;
+			sourceTree = "<group>";
+		};
+		EF445A9124EE4C97005E46F0 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				EF445A9224EE4C97005E46F0 /* remove_git_tag.rb */,
+			);
+			path = actions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +206,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "QYCommunityModule_Tests" */;
 			buildPhases = (
-				92C9CD49B2DF162CC06C67D3 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -248,6 +268,10 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				EF445A9524EE4C97005E46F0 /* README.md in Resources */,
+				EF445A9624EE4C97005E46F0 /* remove_git_tag.rb in Resources */,
+				EF445A9724EE4C97005E46F0 /* report.xml in Resources */,
+				EF445A9424EE4C97005E46F0 /* Fastfile in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,37 +315,23 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QYCommunityModule_Example/Pods-QYCommunityModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HBDNavigationBar/HBDNavigationBar.framework",
 				"${BUILT_PRODUCTS_DIR}/QYCommunityModule/QYCommunityModule.framework",
+				"${BUILT_PRODUCTS_DIR}/QYUtilCore/QYUtilCore.framework",
+				"${BUILT_PRODUCTS_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework",
+				"${BUILT_PRODUCTS_DIR}/URLNavigator/URLNavigator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HBDNavigationBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QYCommunityModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QYUtilCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UINavigation_SXFixSpace.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLNavigator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYCommunityModule_Example/Pods-QYCommunityModule_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		92C9CD49B2DF162CC06C67D3 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-QYCommunityModule_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -507,7 +517,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C56F188B9915C0F159B8AFB /* Pods-QYCommunityModule_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -529,7 +538,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB7A2F1F39236B0D85E313C7 /* Pods-QYCommunityModule_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

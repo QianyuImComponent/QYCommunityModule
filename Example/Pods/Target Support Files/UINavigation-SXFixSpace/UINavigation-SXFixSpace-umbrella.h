@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "UINavigationSXFixSpace.h"
 
-FOUNDATION_EXPORT double Pods_QYCommunityModule_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_QYCommunityModule_TestsVersionString[];
+FOUNDATION_EXPORT double UINavigation_SXFixSpaceVersionNumber;
+FOUNDATION_EXPORT const unsigned char UINavigation_SXFixSpaceVersionString[];
 

@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'QYNovelModule'
+  s.name             = 'QYCommunityModule'
   s.version          = '0.0.1'
   s.summary          = '项目社区模块'
 

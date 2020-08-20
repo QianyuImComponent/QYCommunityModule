@@ -1,16 +1,46 @@
 PODS:
-  - QYCommunityModule (0.1.0)
+  - HBDNavigationBar (1.7.7)
+  - QYCommunityModule (0.0.1):
+    - QYUtilCore
+  - QYUtilCore (0.0.1):
+    - QYUtilCore/Base (= 0.0.1)
+    - QYUtilCore/Dependent (= 0.0.1)
+    - QYUtilCore/Extensions (= 0.0.1)
+    - QYUtilCore/Route (= 0.0.1)
+  - QYUtilCore/Base (0.0.1):
+    - HBDNavigationBar (~> 1.7.7)
+    - QYUtilCore/Dependent
+    - UINavigation-SXFixSpace (~> 1.2.4)
+  - QYUtilCore/Dependent (0.0.1):
+    - QYUtilCore/Extensions
+  - QYUtilCore/Extensions (0.0.1)
+  - QYUtilCore/Route (0.0.1):
+    - URLNavigator (~> 2.3.0)
+  - UINavigation-SXFixSpace (1.2.4)
+  - URLNavigator (2.3.0)
 
 DEPENDENCIES:
   - QYCommunityModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HBDNavigationBar
+    - UINavigation-SXFixSpace
+    - URLNavigator
+  https://github.com/QianyuImComponent/QYPodsSpecs:
+    - QYUtilCore
 
 EXTERNAL SOURCES:
   QYCommunityModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QYCommunityModule: c55d41a56426521c6952790025168a3c1b07f3ca
+  HBDNavigationBar: 6ba38b99637039c831ce460364d5398f29fa0685
+  QYCommunityModule: b1c955d7651cf393b70889aace126e23b4df0a53
+  QYUtilCore: 936c0d75fa6af2188636f9ac7cdc9094f24a3f4a
+  UINavigation-SXFixSpace: 10f223253ebff2ceefa26694e23b7694269763c4
+  URLNavigator: 2593c0e2d293732ec5c44503cf54dceba1a68085
 
-PODFILE CHECKSUM: 663f2e5f7182709bb30037a8622e7c4e4ea329ae
+PODFILE CHECKSUM: f34899481de84fb1a150b26a0a091c0644ba3f5f
 
 COCOAPODS: 1.8.4

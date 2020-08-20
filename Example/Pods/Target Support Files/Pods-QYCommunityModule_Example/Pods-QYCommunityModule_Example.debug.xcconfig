@@ -1,9 +1,10 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/QYCommunityModule"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HBDNavigationBar" "${PODS_CONFIGURATION_BUILD_DIR}/QYCommunityModule" "${PODS_CONFIGURATION_BUILD_DIR}/QYUtilCore" "${PODS_CONFIGURATION_BUILD_DIR}/UINavigation-SXFixSpace" "${PODS_CONFIGURATION_BUILD_DIR}/URLNavigator"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/QYCommunityModule/QYCommunityModule.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HBDNavigationBar/HBDNavigationBar.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QYCommunityModule/QYCommunityModule.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/QYUtilCore/QYUtilCore.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/URLNavigator/URLNavigator.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "QYCommunityModule"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/HBDNavigationBar/HBDNavigationBar.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/QYCommunityModule/QYCommunityModule.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/QYUtilCore/QYUtilCore.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/UINavigation-SXFixSpace/UINavigation_SXFixSpace.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/URLNavigator/URLNavigator.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/HBDNavigationBar" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/QYCommunityModule" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/QYUtilCore" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/UINavigation-SXFixSpace" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/URLNavigator"
+OTHER_LDFLAGS = $(inherited) -framework "Foundation" -framework "HBDNavigationBar" -framework "QYCommunityModule" -framework "QYUtilCore" -framework "UIKit" -framework "UINavigation_SXFixSpace" -framework "URLNavigator"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

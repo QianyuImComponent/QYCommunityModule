@@ -1,0 +1,6 @@
+framework module QYUtilCore {
+  umbrella header "QYUtilCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
