@@ -6,10 +6,11 @@
 //
 
 import UIKit
+import QYUtilCore
 
-class QYCommunityController: UIViewController {
+open class QYCommunityController: QYViewController {
 
-    override func viewDidLoad() {
+    open override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
