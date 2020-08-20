@@ -1,0 +1,6 @@
+framework module QYCommunityModule {
+  umbrella header "QYCommunityModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

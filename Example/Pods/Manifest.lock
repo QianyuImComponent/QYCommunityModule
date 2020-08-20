@@ -1,0 +1,16 @@
+PODS:
+  - QYCommunityModule (0.1.0)
+
+DEPENDENCIES:
+  - QYCommunityModule (from `../`)
+
+EXTERNAL SOURCES:
+  QYCommunityModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QYCommunityModule: c55d41a56426521c6952790025168a3c1b07f3ca
+
+PODFILE CHECKSUM: 663f2e5f7182709bb30037a8622e7c4e4ea329ae
+
+COCOAPODS: 1.8.4
